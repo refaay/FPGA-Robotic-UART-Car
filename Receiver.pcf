@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Dec 17 08:10:26 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "sample<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "sample<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "transmit" LOCATE = SITE "C6" LEVEL 1;
+COMP "sample<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "sample<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "sample<4>" LOCATE = SITE "N5" LEVEL 1;
+COMP "recv_error" LOCATE = SITE "M12" LEVEL 1;
+COMP "sample<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "sample<6>" LOCATE = SITE "P4" LEVEL 1;
+COMP "rx" LOCATE = SITE "C5" LEVEL 1;
+COMP "tx" LOCATE = SITE "B6" LEVEL 1;
+COMP "done" LOCATE = SITE "H12" LEVEL 1;
+COMP "is_transmitting" LOCATE = SITE "L14" LEVEL 1;
+COMP "is_receiving" LOCATE = SITE "N11" LEVEL 1;
+COMP "received" LOCATE = SITE "B7" LEVEL 1;
+COMP "rst" LOCATE = SITE "P11" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

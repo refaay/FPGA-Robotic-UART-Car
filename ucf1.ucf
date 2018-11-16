@@ -1,0 +1,30 @@
+
+
+NET "rx" LOC = C5;
+NET "tx" LOC = B6;
+NET "transmit" LOC =  C6;
+NET "received" LOC = B7;
+
+NET "is_transmitting" LOC = L14;
+NET "recv_error" LOC = M12;
+NET "is_receiving" LOC = N11;
+
+NET "clk" LOC = B8;
+NET "en" LOC = N3;
+NET "rst" LOC =E2;
+NET "dt[0]" LOC = M11;
+NET "dt[1]" LOC = P7;
+
+NET "mst" LOC = G1;
+NET "mct[0]" LOC = P6;
+NET "mct[1]" LOC = N5;
+NET "mct[2]" LOC = N4;
+NET "mct[3]" LOC =P4;
+
+NET "mt" LOC = M5;
+NET "readEn" LOC = F3;
+
+NET "M1" LOC = A9;
+NET "M2" LOC = B9;
+NET "echo" LOC = B2;
+NET "inputTrigger" LOC = A3;

@@ -1,0 +1,31 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Dec 18 16:37:05 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "M1" LOCATE = SITE "A9" LEVEL 1;
+COMP "M2" LOCATE = SITE "B9" LEVEL 1;
+COMP "en" LOCATE = SITE "N3" LEVEL 1;
+COMP "mt" LOCATE = SITE "M5" LEVEL 1;
+COMP "rx" LOCATE = SITE "C5" LEVEL 1;
+COMP "tx" LOCATE = SITE "B6" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "recv_error" LOCATE = SITE "M12" LEVEL 1;
+COMP "mst" LOCATE = SITE "G1" LEVEL 1;
+COMP "rst" LOCATE = SITE "E2" LEVEL 1;
+COMP "echo" LOCATE = SITE "B2" LEVEL 1;
+COMP "inputTrigger" LOCATE = SITE "A3" LEVEL 1;
+COMP "dt<0>" LOCATE = SITE "M11" LEVEL 1;
+COMP "dt<1>" LOCATE = SITE "P7" LEVEL 1;
+COMP "is_receiving" LOCATE = SITE "N11" LEVEL 1;
+COMP "mct<0>" LOCATE = SITE "P6" LEVEL 1;
+COMP "mct<1>" LOCATE = SITE "N5" LEVEL 1;
+COMP "mct<2>" LOCATE = SITE "N4" LEVEL 1;
+COMP "mct<3>" LOCATE = SITE "P4" LEVEL 1;
+COMP "readEn" LOCATE = SITE "F3" LEVEL 1;
+COMP "received" LOCATE = SITE "B7" LEVEL 1;
+COMP "transmit" LOCATE = SITE "C6" LEVEL 1;
+COMP "is_transmitting" LOCATE = SITE "L14" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

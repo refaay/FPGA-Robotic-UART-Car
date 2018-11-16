@@ -1,0 +1,33 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Dec 17 02:07:30 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "transmit" LOCATE = SITE "C6" LEVEL 1;
+COMP "recv_error" LOCATE = SITE "M12" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "rx_byte<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "rx_byte<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "rx_byte<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "rx_byte<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "rx_byte<4>" LOCATE = SITE "N5" LEVEL 1;
+COMP "rx_byte<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "rx_byte<6>" LOCATE = SITE "P4" LEVEL 1;
+COMP "tx_byte<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "rx_byte<7>" LOCATE = SITE "G1" LEVEL 1;
+COMP "tx_byte<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "tx_byte<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "tx_byte<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "tx_byte<4>" LOCATE = SITE "G3" LEVEL 1;
+COMP "tx_byte<5>" LOCATE = SITE "F3" LEVEL 1;
+COMP "rx" LOCATE = SITE "C5" LEVEL 1;
+COMP "tx_byte<6>" LOCATE = SITE "E2" LEVEL 1;
+COMP "tx_byte<7>" LOCATE = SITE "N3" LEVEL 1;
+COMP "tx" LOCATE = SITE "B6" LEVEL 1;
+COMP "is_transmitting" LOCATE = SITE "L14" LEVEL 1;
+COMP "is_receiving" LOCATE = SITE "N11" LEVEL 1;
+COMP "received" LOCATE = SITE "B7" LEVEL 1;
+COMP "rst" LOCATE = SITE "G12" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
